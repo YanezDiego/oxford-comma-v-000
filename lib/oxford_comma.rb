@@ -18,7 +18,4 @@ end
 # elsif array.length == 3
 #   array.insert(2, "and")
 # else
-#   array.insert(4, "and")
-
-#  end
-#  return array.join(", ")
+#end
