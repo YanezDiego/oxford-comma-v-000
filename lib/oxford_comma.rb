@@ -9,7 +9,7 @@ end
 
   #return= "#{array[0, array.length].join(', ')} and #{array.last}" <=== Possibility one.
 
-      #Bellow was to many elsif's
+      #Bellow was to many elsif's and was broken.
 #  if array.length == 1
 #  return array.join
 #elsif array.length == 2
