@@ -1,10 +1,9 @@
 def oxford_comma(array)
-  array.join (" and ")
-    if array.size < 5
-      array.join (1, "and ")
-    else
-      array.join (", ") << "and"
-    end
+  if array.length == 1
+    result = array[0]
+  else
+    result = "#{array[0, array.length].join(', ')} and #{array.last}"
+  end
 end
 
 #def oxford_comma(array)
