@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  if array.length < 2
+  if array.length == 2
     return "#{array[1]} and #{array[2]}"
   else array.length > 2
     #return "#{array[0]}"
