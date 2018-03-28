@@ -1,13 +1,11 @@
 def oxford_comma(array)
-  if array.length == 1
-    return array.join
-  elsif array.length == 2
-    return array.join (" and ")
-  elsif array.length == 3
-    return "#{array[0, array.length==2].join(", ")} and #{array.last}"
+    case length
+    when 0
+      " "
 
 
-    #result = "#{array[0, array.length].join(', ')} and #{array.last}"
+
+    #return= "#{array[0, array.length].join(', ')} and #{array.last}"
   end
 end
 
